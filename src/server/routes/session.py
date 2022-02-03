@@ -3,6 +3,7 @@ from datetime import timedelta, datetime
 from decouple import config
 from fastapi import APIRouter, status, HTTPException, Depends
 from fastapi.security import OAuth2PasswordBearer
+# noinspection PyPackageRequirements
 from jose import JWTError, jwt
 from passlib.context import CryptContext
 
